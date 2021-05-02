@@ -1,2 +1,2 @@
-# Resume Website - [DEMO](https://vineetvdubey.github.io)
+# Resume Website - [DEMO](https://vineetvdubey.netlify.app)
 Personal resume website built using vanilla HTML/CSS
