@@ -1,0 +1,18 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-name {
+  font-size: 75px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.nav-option {
+  color: brown;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
