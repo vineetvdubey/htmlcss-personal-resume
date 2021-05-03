@@ -38,6 +38,8 @@ h2:after {
 .nav-style {
   background-color: #f1fffa;
   padding: 20px;
+  padding-left: 75px;
+  margin-left: 0;
 }
 
 .fixed {
@@ -66,8 +68,8 @@ h2:after {
 }
 
 .section-whole {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .company-name {
