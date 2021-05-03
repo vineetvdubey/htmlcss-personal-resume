@@ -1,18 +1,39 @@
 html {
   font-family: "Roboto", sans-serif;
+  background-color: #f1fffa;
+  color: #454545;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.nav-style {
+  background-color: #f1fffa;
+  padding: 20px;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .main-name {
   font-size: 75px;
-}
-
-h3 {
-  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .nav-option {
-  color: brown;
-  margin: 10px;
+  color: #bb4d00;
+  margin-top: 10px;
   padding: 10px;
   text-decoration: none;
+  font-weight: bolder;
+}
+
+.section-title {
+  color: #bb4d00;
+  padding-top: 60px;
 }
