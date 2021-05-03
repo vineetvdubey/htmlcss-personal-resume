@@ -37,3 +37,12 @@ h1, h2 {
   color: #bb4d00;
   padding-top: 60px;
 }
+
+.contact-style {
+  text-align: center;
+}
+
+.footer-style {
+  text-align: center;
+  padding: 20px;
+}
