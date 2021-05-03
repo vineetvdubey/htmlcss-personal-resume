@@ -112,3 +112,21 @@ ul {
   text-align: center;
   padding: 20px;
 }
+
+.projects-list {
+  list-style-type: none;
+}
+
+.project-item {
+  margin-top: 40px;
+}
+
+.project-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.project-description {
+  margin-top: 10px;
+}
