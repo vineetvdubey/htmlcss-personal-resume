@@ -4,8 +4,35 @@ html {
   color: #454545;
 }
 
-h1, h2 {
+h1 {
   text-align: center;
+}
+
+h2 {
+  overflow: hidden;
+  text-align: center;
+  font-size: 35px;
+}
+
+h2:before,
+h2:after {
+  background-color: #454545;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+h2:before {
+  right: 1em;
+  /* margin-left: -50%; */
+}
+
+h2:after {
+  left: 1em;
+  /* margin-right: -50%; */
 }
 
 .nav-style {
@@ -20,7 +47,7 @@ h1, h2 {
 }
 
 .main-name {
-  font-size: 75px;
+  font-size: 85px;
   margin-top: 100px;
   margin-bottom: 30px;
 }
@@ -35,7 +62,29 @@ h1, h2 {
 
 .section-title {
   color: #bb4d00;
-  padding-top: 60px;
+  padding-top: 55px;
+}
+
+.section-whole {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.company-name {
+  font-style: italic;
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+.designation {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.duration {
+  color: blue;
 }
 
 .contact-style {
