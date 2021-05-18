@@ -13,25 +13,6 @@ h2 {
   text-align: center;
 }
 
-h2:before,
-h2:after {
-  background-color: #454545;
-  content: "";
-  display: inline-block;
-  height: 2px;
-  position: relative;
-  vertical-align: middle;
-  width: 30%;
-}
-
-h2:before {
-  right: 1em;
-}
-
-h2:after {
-  left: 1em;
-}
-
 .nav-style {
   background-color: #f1fffa;
   padding: 20px;
@@ -72,9 +53,23 @@ h2:after {
   font-size: 35px;
 }
 
+@media screen and (max-width: 600px) {
+  .section-title {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+}
+
 .section-whole {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+@media screen and (max-width: 600px) {
+  .section-whole {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
 }
 
 .ul-title {
