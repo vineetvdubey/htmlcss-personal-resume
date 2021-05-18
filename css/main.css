@@ -15,27 +15,31 @@ h2 {
 
 .nav-style {
   background-color: #f1fffa;
-  padding: 20px;
-  padding-left: 100px;
+  padding: 30px;
   margin-left: 0;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .fixed {
   position: fixed;
   width: 100%;
   top: 0;
+  overflow: hidden;
 }
 
 .main-name {
   font-size: 85px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 
 .nav-option {
   color: #bb4d00;
-  margin-top: 10px;
-  padding: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
   text-decoration: none;
   font-weight: bolder;
 }
