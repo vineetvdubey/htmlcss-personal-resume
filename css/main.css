@@ -40,13 +40,6 @@ h2 {
   font-weight: bolder;
 }
 
-.pdf-resume-link {
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  right: 100px;
-}
-
 .section-title {
   color: #bb4d00;
   padding-top: 55px;
@@ -58,18 +51,15 @@ h2 {
     padding-top: 10px;
     font-size: 25px;
   }
+  .section-whole {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
 }
 
 .section-whole {
   padding-left: 10vw;
   padding-right: 10vw;
-}
-
-@media screen and (max-width: 600px) {
-  .section-whole {
-    padding-left: 3vw;
-    padding-right: 3vw;
-  }
 }
 
 .ul-title {
@@ -110,6 +100,7 @@ ul {
 
 .projects-list {
   list-style-type: none;
+  padding: 0;
 }
 
 .project-item {
